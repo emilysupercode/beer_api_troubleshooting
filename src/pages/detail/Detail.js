@@ -17,15 +17,14 @@ import backArrow from "../../assets/img/Back.svg";
 
 const Detail = () => {
     const [beerList, setBeerList] = useState([]);
-
+    const params = useParams();
     useEffect(() => {
-        const params = useParams();
         fetch(`https://ih-beers-api2.herokuapp.com/beers/${params.beerId}`)
             .then(res => res.json())
             .then((beerList) => {
                 setBeerList(beerList)
             })
-    }, []);
+    }, [params.beerId]);
 
     return (
         <div className="beerDetailDiv">
