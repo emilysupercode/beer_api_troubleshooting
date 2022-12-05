@@ -1,0 +1,72 @@
+.beerDetailDiv {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beerImage {
+    width: 80px;
+}
+
+.beerDetailInfoDiv {
+    margin: 0 2rem;
+}
+
+.beerNameP {
+    font-family: "RobotoSlab-Medium", serif;
+    font-size: 42px;
+    margin-top: 50px;
+}
+
+.beerTaglineP {
+    font-family: "RobotoSlab-Bold", serif;
+    color: #FFCA41;
+}
+
+.beerDetailGray {
+    font-family: "RobotoSlab-Light", serif;
+    color: gray;
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
+.beerDetailGray1,
+.beerDetailGray2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.beerDetailDescriptionP {
+    font-family: "RobotoSlab-Medium", serif;
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
+.backArrowIcon {
+    width: 50px;
+    margin-top: 2rem;
+    transition: all 0.5s ease;
+}
+
+.backArrowIcon:hover {
+    scale: 1.3;
+}
+
+@media only screen and (min-width: 768px) {
+    .beerDetailDiv {
+        flex-direction: row;
+        margin: 50px;
+        justify-content: space-between;
+    }
+
+    .beerImage {
+        max-height: 80vh;
+        width: auto;
+    }
+
+    .beerDetailInfoDiv {
+        width: 300px;
+        margin-left: 100px;
+    }
+}

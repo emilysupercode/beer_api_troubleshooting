@@ -1,0 +1,17 @@
+nav {
+    padding-top: 25vh;
+}
+
+nav img {
+    width: 40px;
+}
+
+.navigationDiv {
+    background-color: #FFCA41;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}

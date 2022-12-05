@@ -1,0 +1,48 @@
+.homepageSubSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.homepageImgBanner {
+    width: 80%;
+    background-color: #FFCA41;
+}
+
+.homepageImgBanner img {
+    width: 100%;
+    aspect-ratio: 9/6;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.homepageImgBanner h2 {
+    padding: 5px 10px;
+    color: white;
+    font-family: "RobotoSlab-Bold", serif;
+}
+
+.homepageImgBanner a {
+    text-decoration: none;
+}
+
+.homepageImgBanner a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.homepageP {
+    padding-top: 10px;
+    background-color: white;
+    font-family: "RobotoSlab-Light", serif;
+}
+
+@media only screen and (min-width: 768px) {
+    .homepageImgBanner {
+        width: 500px;
+    }
+}
